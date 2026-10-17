@@ -1,0 +1,15 @@
+{
+  "name": "@maam/music-core",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./src/index.ts"
+    }
+  },
+  "dependencies": {
+    "@maam/types": "workspace:*"
+  }
+}
